@@ -26,10 +26,7 @@ public class rcontrol : MonoBehaviour {
 	float  rad;
 	const float deg=180.0f/3.14f;
 	
-	
-	
-	
-	
+			
 	// Use this for initialization
 	void Start () {
 		//ob=GetComponent(UImanager>();
@@ -60,11 +57,11 @@ public class rcontrol : MonoBehaviour {
 				Debug.Log(h);
 				touchBegin = true;
 				
-			} else {
+			} 
 
+			else 
 
-
-
+			{
 
 				//this.transform.Rotate(0f,0f,-Mathf.Clamp(angle,-60f,60f)*Time.fixedDeltaTime*5);
 				if(Input.GetTouch(0).position.x>=(s/2))
@@ -112,34 +109,23 @@ public class rcontrol : MonoBehaviour {
 
 
 
-				
-
-
-
 			}
 				
-				
-				
-				
-				
+						
 		}
 	}
-				void OnCollisionEnter2D(Collision2D col)
+		void OnCollisionEnter2D(Collision2D col)
 				{
 
 
-					if (col.gameObject.tag == "obstacle") {
+					if (col.gameObject.tag == "obstacle") 
+					{
 					Destroy (gameObject);
 			        ob.gover();
 
 					}
 
-		Instantiate (explosion);
-
-
-					
+	
 				}
 				
-
-				
-				}
+}

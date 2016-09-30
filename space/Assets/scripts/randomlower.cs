@@ -13,7 +13,6 @@ public class randomlower : MonoBehaviour {
 		
 	}
 	
-	
 	// Update is called once per frame
 	void Update () {
 		timer -= Time.deltaTime;
@@ -25,9 +24,5 @@ public class randomlower : MonoBehaviour {
 			Destroy(instantiatedObj,8f);
 			timer=timedelay;
 		}
-	}
-	
-	
-	
-	
+	}		
 }	

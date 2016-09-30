@@ -56,35 +56,18 @@ public class UImanager : MonoBehaviour {
 		}
 		PlayerPrefs.SetInt ("score",score );
 		Application.LoadLevel ("over");
-		ob.Update();
+		Update();
 
 	}
-
-
-
-
-
 
 	public void play()
 	{
 
 
-			
-
-
-
-
-		Application.LoadLevel ("countdown");
-
-
+	Application.LoadLevel ("countdown");
 
 
 	}
-
-
-
-
-
 
 	public void pause()
 	{
@@ -122,9 +105,5 @@ public class UImanager : MonoBehaviour {
 		Application.Quit();
 
 	}
-
-
-
-
 
 }

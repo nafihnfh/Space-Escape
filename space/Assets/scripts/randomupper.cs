@@ -26,8 +26,5 @@ public class randomupper : MonoBehaviour {
 			timer=timedelay;
 		}
 	}
-	
-	
-	
-	
+		
 }	

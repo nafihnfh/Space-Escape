@@ -9,6 +9,7 @@ public class randomiser : MonoBehaviour {
 	public GameObject instantiatedObj;
 	// Use this for initialization
 	void Start () {
+		
 		timer = timedelay;
 
 	}
@@ -26,8 +27,5 @@ public class randomiser : MonoBehaviour {
 			timer=timedelay;
 		}
 	}
-	
-	
-	
-	
+		
 }	

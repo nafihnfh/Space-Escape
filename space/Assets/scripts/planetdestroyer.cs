@@ -10,7 +10,7 @@ public class planetdestroyer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
 	void OnCollisionEnter2D(Collision2D col)
@@ -18,12 +18,8 @@ public class planetdestroyer : MonoBehaviour {
 		if(col.gameObject.tag=="Finish")
 		{
 			Destroy(col.gameObject);
+	    }
 
 
-
-
-	}
-
-
-}
+    }
 }
